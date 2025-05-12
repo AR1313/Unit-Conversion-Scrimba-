@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    font-family: 'Inter';
+    color: white;
+}
+
+.main-div {
+    background-color: #6943FF;
+    width: 550px;
+    height: 729px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 28px;
+    padding-top: 33px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+#error-p {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+p {
+    color: #353535;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 9px;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-size: 58px;
+    font-weight: 800;
+    height: 83px;
+    width: 117px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+#convert-btn {
+    color: #3D3D3D;
+    height: 42px;
+    width: 117px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+
+.result-div {
+    height: 108.57px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.results-div {
+    background-color: #F4F4F4;
+    padding: 36px 25px;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
